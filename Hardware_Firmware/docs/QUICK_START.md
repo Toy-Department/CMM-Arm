@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-**Get your CCM Digitizing Arm running in 15 minutes!**
+**Get your CMM Digitizing Arm running in 15 minutes!**
 
 This guide assumes you have basic Arduino experience. For detailed explanations, see [README.md](README.md) and [HARDWARE_SETUP.md](HARDWARE_SETUP.md).
 
@@ -20,12 +20,12 @@ This guide assumes you have basic Arduino experience. For detailed explanations,
 
 **Option A - Git:**
 ```bash
-git clone https://github.com/Toy-Department/CCM-Digitizing-Arm.git
-cd CCM-Digitizing-Arm/Arduino
+git clone https://github.com/Toy-Department/CMM-Digitizing-Arm.git
+cd CMM-Digitizing-Arm/Arduino
 ```
 
 **Option B - ZIP Download:**
-1. Download from [GitHub Releases](https://github.com/Toy-Department/CCM-Digitizing-Arm/releases)
+1. Download from [GitHub Releases](https://github.com/Toy-Department/CMM-Digitizing-Arm/releases)
 2. Extract ZIP file
 3. Navigate to `Arduino/` folder
 
@@ -66,7 +66,7 @@ Default pins work for most setups:
 ## 📤 Step 3: Upload Firmware (2 minutes)
 
 1. **Connect Arduino** via USB
-2. **Open** `CCM_Digitizing_Arm_Arduino.ino` in Arduino IDE
+2. **Open** `CMM_Digitizing_Arm_Arduino.ino` in Arduino IDE
 3. **Select Board**: Tools → Board → Arduino Mega 2560
 4. **Select Port**: Tools → Port → [Your COM port]
 5. **Upload**: Click → button (or Ctrl+U)
@@ -107,7 +107,7 @@ For EACH encoder:
 4. **Look for startup message:**
    ```
    =====================================
-   4-Axis CCM Digitizing Arm
+   4-Axis CMM Digitizing Arm
    Firmware Version: 1.0.2
    Date: 2025-11-20
    =====================================
@@ -297,7 +297,7 @@ Complete documentation:
 
 ## ✅ You're Ready!
 
-Your CCM Digitizing Arm is now operational. You can:
+Your CMM Digitizing Arm is now operational. You can:
 - ✅ Read real-time XYZ coordinates
 - ✅ Stream position data to PC application
 - ✅ Configure parameters on-the-fly
