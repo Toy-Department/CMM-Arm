@@ -130,4 +130,4 @@ By contributing, you agree that your contributions will be licensed under the **
 
 ---
 
-**Thank you for helping make CCM Digitizing Arm better!** 🎉
+**Thank you for helping make CMM Digitizing Arm better!** 🎉
