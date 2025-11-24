@@ -1,4 +1,4 @@
-# CCM Measurement Arm
+# CMM Measurement Arm
 
 A professional desktop application for 4-axis digitizing arms with real-time 3D visualization, advanced geometry analysis, and Arduino-based hardware control.
 
@@ -7,7 +7,7 @@ A professional desktop application for 4-axis digitizing arms with real-time 3D 
 
 ## Overview
 
-The CCM Measurement Arm system consists of two main components:
+The CMM Measurement Arm system consists of two main components:
 
 1. **[Desktop Application](App/)** - Electron-based software for data capture and analysis
 2. **[Hardware & Firmware](Hardware_Firmware/)** - Arduino firmware for the digitizing arm
@@ -39,7 +39,7 @@ See [App/README.md](App/README.md) for detailed installation and usage instructi
 
 Upload the Arduino firmware to your Arduino Mega 2560:
 
-1. Open `Hardware_Firmware/Arduino/CCM_Digitizing_Arm_Arduino.ino` in Arduino IDE
+1. Open `Hardware_Firmware/Arduino/CMM_Digitizing_Arm_Arduino.ino` in Arduino IDE
 2. Select **Board: Arduino Mega 2560**
 3. Select your serial port
 4. Click **Upload**
@@ -69,7 +69,7 @@ See [Hardware_Firmware/docs/README](Hardware_Firmware/docs/README) for complete 
 ## Project Structure
 
 ```
-CCM-Measurement-Arm/
+CMM-Measurement-Arm/
 ├── App/                      # Desktop application
 │   ├── src/                  # Core modules
 │   ├── assets/               # Icons and images
@@ -103,4 +103,4 @@ Built with ❤️ for the maker and reverse engineering community.
 
 ---
 
-**Version 1.0.0** | [Report Issues](https://github.com/Toy-Department/CCM-Measurement-Arm/issues)
+**Version 1.0.0** | [Report Issues](https://github.com/Toy-Department/CMM-Measurement-Arm/issues)
