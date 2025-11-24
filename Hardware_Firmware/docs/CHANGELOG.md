@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to the CCM Digitizing Arm firmware will be documented in this file.
+All notable changes to the CMM Digitizing Arm firmware will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
@@ -173,14 +173,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 **How to report issues:**
-1. Check if issue exists in [GitHub Issues](https://github.com/Toy-Department/CCM-Digitizing-Arm/issues)
+1. Check if issue exists in [GitHub Issues](https://github.com/Toy-Department/CMM-Digitizing-Arm/issues)
 2. Include firmware version (use `VERSION` command)
 3. Provide `config.h` settings
 4. Include Serial Monitor output showing problem
 5. Describe steps to reproduce
 
 **How to suggest features:**
-1. Check [GitHub Discussions](https://github.com/Toy-Department/CCM-Digitizing-Arm/discussions)
+1. Check [GitHub Discussions](https://github.com/Toy-Department/CMM-Digitizing-Arm/discussions)
 2. Explain use case and benefit
 3. Provide example scenarios
 4. Consider implementation complexity
@@ -207,5 +207,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **Maintained by:** [Your Name/Team]  
-**Repository:** https://github.com/Toy-Department/CCM-Digitizing-Arm  
-**Issues:** https://github.com/Toy-Department/CCM-Digitizing-Arm/issues
+**Repository:** https://github.com/Toy-Department/CMM-Digitizing-Arm  
+**Issues:** https://github.com/Toy-Department/CMM-Digitizing-Arm/issues
