@@ -1,15 +1,15 @@
-# Contributing to CCM Digitizing Arm
+# Contributing to CMM Digitizing Arm
 
 > **Document Control:** v1.0.0 | Last Updated: 2025-01-20
 
-Thank you for your interest in contributing to the CCM Digitizing Arm project! This document provides guidelines for contributing code, reporting bugs, and suggesting features.
+Thank you for your interest in contributing to the CMM Digitizing Arm project! This document provides guidelines for contributing code, reporting bugs, and suggesting features.
 
 ---
 
 ## 🤝 How to Contribute
 
 ### Reporting Bugs
-1. Check [existing issues](https://github.com/Toy-Department/ccm-digitizing-arm/issues) to avoid duplicates
+1. Check [existing issues](https://github.com/Toy-Department/cmm-digitizing-arm/issues) to avoid duplicates
 2. Create a new issue with the `bug` label
 3. Include:
    - **OS and version** (Windows 10, macOS 12, Ubuntu 22.04, etc.)
@@ -125,7 +125,7 @@ By contributing, you agree that your contributions will be licensed under the **
 
 ## 💬 Questions?
 
-- **GitHub Discussions**: [Ask the community](https://github.com/Toy-Department/ccm-digitizing-arm/discussions)
+- **GitHub Discussions**: [Ask the community](https://github.com/Toy-Department/cmm-digitizing-arm/discussions)
 - **Email**: toydepartment2025@gmail.com
 
 ---
