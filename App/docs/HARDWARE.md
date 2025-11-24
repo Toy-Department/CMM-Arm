@@ -188,7 +188,7 @@ Arduino → PC: ACK,Recording Stopped\r\n
 4. Type `STOP` to halt streaming
 
 ### 3. Application Test
-1. Launch the CCM Digitizing Arm application
+1. Launch the CMM Digitizing Arm application
 2. Connect to your Arduino
 3. Enable Live Recording and start recording
 4. Move the arm and watch the 3D viewer update
@@ -217,4 +217,4 @@ Arduino → PC: ACK,Recording Stopped\r\n
 
 ---
 
-**Need Help?** Open an issue on [GitHub](https://github.com/Toy-Department/ccm-digitizing-arm/issues) with the `hardware` label.
+**Need Help?** Open an issue on [GitHub](https://github.com/Toy-Department/cmm-digitizing-arm/issues) with the `hardware` label.
