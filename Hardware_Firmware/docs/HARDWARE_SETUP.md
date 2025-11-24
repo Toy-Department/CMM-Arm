@@ -1,8 +1,8 @@
 # Hardware Setup Guide
 
-**CCM Digitizing Arm - Firmware v1.0.2**
+**CMM Digitizing Arm - Firmware v1.0.2**
 
-Complete hardware assembly, wiring, and bill of materials for building a 4-axis coordinate measuring machine (CCM) digitizing arm with Arduino control.
+Complete hardware assembly, wiring, and bill of materials for building a 4-axis coordinate measuring machine (CMM) digitizing arm with Arduino control.
 
 ---
 
@@ -93,7 +93,7 @@ Your encoders MUST have:
 
 ```
 ╔════════════════════════════════════════════════════════════╗
-║        Arduino Mega 2560 - CCM Digitizing Arm Pins        ║
+║        Arduino Mega 2560 - CMM Digitizing Arm Pins        ║
 ╠════════════════════════════════════════════════════════════╣
 ║                                                            ║
 ║  ENCODER 1 (Base Rotation)                                 ║
@@ -426,7 +426,7 @@ Before powering on:
 ### Step 3: Firmware Upload Test
 
 1. Open Arduino IDE
-2. Load CCM_Digitizing_Arm_Arduino.ino
+2. Load CMM_Digitizing_Arm_Arduino.ino
 3. **Tools → Board → Arduino Mega 2560**
 4. **Tools → Port → [Your COM port]**
 5. **Upload** firmware
@@ -439,7 +439,7 @@ Before powering on:
 3. Should see startup message:
    ```
    =====================================
-   4-Axis CCM Digitizing Arm
+   4-Axis CMM Digitizing Arm
    Firmware Version: 1.0.2
    Date: 2025-11-20
    =====================================
@@ -630,8 +630,8 @@ If repeatability poor:
 
 For hardware setup questions:
 - Check [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
-- Post in [GitHub Discussions](https://github.com/Toy-Department/CCM-Digitizing-Arm/discussions)
-- File issue on [GitHub Issues](https://github.com/Toy-Department/CCM-Digitizing-Arm/issues)
+- Post in [GitHub Discussions](https://github.com/Toy-Department/CMM-Digitizing-Arm/discussions)
+- File issue on [GitHub Issues](https://github.com/Toy-Department/CMM-Digitizing-Arm/issues)
 
 ---
 
