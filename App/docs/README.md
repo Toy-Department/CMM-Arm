@@ -1,4 +1,4 @@
-# CCM Digitizing Arm v1.0.0
+# CMM Digitizing Arm v1.0.0
 
 > **Document Control:** v1.0.0 | Last Updated: 2025-01-20 | Compatible with Firmware v1.0.0
 
@@ -8,7 +8,7 @@
 
 A professional desktop application for interfacing with 4-axis articulated digitizing arms. Designed for reverse engineering, quality control, and 3D measurement tasks with real-time coordinate tracking, advanced geometry analysis, and interactive 3D visualization.
 
-![CCM Digitizing Arm Interface](docs/images/app-screenshot.png)
+![CMM Digitizing Arm Interface](docs/images/app-screenshot.png)
 
 ---
 
@@ -67,8 +67,8 @@ A professional desktop application for interfacing with 4-axis articulated digit
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/Toy-Department/ccm-digitizing-arm.git
-cd ccm-digitizing-arm
+git clone https://github.com/Toy-Department/cmm-digitizing-arm.git
+cd cmm-digitizing-arm
 ```
 
 ### 2. Install Dependencies
@@ -145,7 +145,7 @@ npm run build-linux
 ## 📁 Project Structure
 
 ```
-ccm-digitizing-arm/
+cmm-digitizing-arm/
 ├── main.js                 # Electron main process (window management)
 ├── renderer.js             # Core application logic (UI, serial, geometry)
 ├── index.html              # Main UI layout
@@ -195,8 +195,8 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/Toy-Department/ccm-digitizing-arm/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/Toy-Department/ccm-digitizing-arm/discussions)
+- **Issues**: [GitHub Issues](https://github.com/Toy-Department/cmm-digitizing-arm/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/Toy-Department/cmm-digitizing-arm/discussions)
 - **Email**: toydepartment2025@gmail.com
 
 ---
