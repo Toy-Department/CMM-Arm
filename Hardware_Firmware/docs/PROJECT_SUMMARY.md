@@ -1,4 +1,4 @@
-# CCM Digitizing Arm - Documentation Package Summary
+# CMM Digitizing Arm - Documentation Package Summary
 
 **Created for:** GitHub Open Source Release  
 **Firmware Version:** 1.0.2  
@@ -9,7 +9,7 @@
 
 ## 📦 What You Have
 
-A complete, professional-grade documentation suite for your CCM Digitizing Arm Arduino firmware, ready for immediate upload to GitHub.
+A complete, professional-grade documentation suite for your CMM Digitizing Arm Arduino firmware, ready for immediate upload to GitHub.
 
 ### Document Inventory
 
@@ -66,12 +66,12 @@ A complete, professional-grade documentation suite for your CCM Digitizing Arm A
 1. **Create your GitHub repository** (if not already created)
    ```bash
    # On GitHub.com:
-   # New Repository → CCM-Digitizing-Arm → Public → Create
+   # New Repository → CMM-Digitizing-Arm → Public → Create
    ```
 
 2. **Organize your file structure:**
    ```
-   CCM-Digitizing-Arm/
+   CMM-Digitizing-Arm/
    ├── README.md              ← From this package
    ├── QUICK_START.md         ← From this package
    ├── HARDWARE_SETUP.md      ← From this package
@@ -79,7 +79,7 @@ A complete, professional-grade documentation suite for your CCM Digitizing Arm A
    ├── LICENSE                ← From this package
    ├── DOCUMENT_INDEX.md      ← From this package
    └── Arduino/
-       ├── CCM_Digitizing_Arm_Arduino.ino    ← Your firmware
+       ├── CMM_Digitizing_Arm_Arduino.ino    ← Your firmware
        ├── config.h                          ← Your firmware
        ├── encoder.h / encoder.cpp           ← Your firmware
        ├── kinematics.h / kinematics.cpp     ← Your firmware
@@ -92,7 +92,7 @@ A complete, professional-grade documentation suite for your CCM Digitizing Arm A
    git add .
    git commit -m "Initial release - Firmware v1.0.2 with complete documentation"
    git branch -M main
-   git remote add origin https://github.com/yourusername/CCM-Digitizing-Arm.git
+   git remote add origin https://github.com/yourusername/CMM-Digitizing-Arm.git
    git push -u origin main
    ```
 
@@ -113,7 +113,7 @@ Before uploading, replace these placeholders:
 **Quick find & replace:**
 ```bash
 # Linux/Mac:
-cd CCM-Arduino-Docs
+cd CMM-Arduino-Docs
 sed -i 's/yourusername/YourActualUsername/g' *.md
 
 # Or manually edit each file in your text editor
@@ -328,7 +328,7 @@ Your README.md is the first thing visitors see:
 ### Add a Banner Image (Optional)
 Consider adding to README.md:
 ```markdown
-![CCM Digitizing Arm](images/banner.jpg)
+![CMM Digitizing Arm](images/banner.jpg)
 ```
 - Photo of your completed arm
 - Diagram of system architecture
@@ -337,7 +337,7 @@ Consider adding to README.md:
 ### Enable GitHub Pages (Optional)
 Turn docs into a website:
 1. Settings → Pages → Source: main branch
-2. Docs will be available at: `https://yourusername.github.io/CCM-Digitizing-Arm/`
+2. Docs will be available at: `https://yourusername.github.io/CMM-Digitizing-Arm/`
 
 ### Add Issue Templates (Future)
 Create `.github/ISSUE_TEMPLATE/`:
