@@ -2,7 +2,7 @@
 
 > **Document Control:** v1.0.0 | Last Updated: 2025-01-20 | Compatible with Firmware v1.0.0
 
-Get up and running with the CCM Digitizing Arm in **5 minutes**.
+Get up and running with the CMM Digitizing Arm in **5 minutes**.
 
 ---
 
@@ -19,13 +19,13 @@ Before you begin, ensure you have:
 
 ### Option A: Clone from GitHub
 ```bash
-git clone https://github.com/Toy-Department/ccm-digitizing-arm.git
-cd ccm-digitizing-arm
+git clone https://github.com/Toy-Department/cmm-digitizing-arm.git
+cd cmm-digitizing-arm
 npm install
 ```
 
 ### Option B: Download ZIP
-1. Download the [latest release](https://github.com/Toy-Department/ccm-digitizing-arm/releases)
+1. Download the [latest release](https://github.com/Toy-Department/cmm-digitizing-arm/releases)
 2. Extract the ZIP file
 3. Open a terminal in the extracted folder
 4. Run `npm install`
@@ -154,4 +154,4 @@ The application window will open automatically.
 
 ---
 
-**Need Help?** Open an issue on [GitHub](https://github.com/Toy-Department/ccm-digitizing-arm/issues)
+**Need Help?** Open an issue on [GitHub](https://github.com/Toy-Department/cmm-digitizing-arm/issues)
