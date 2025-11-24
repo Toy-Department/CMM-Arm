@@ -1,6 +1,6 @@
-# CCM Digitizing Arm - Desktop Application
+# CMM Digitizing Arm - Desktop Application
 
-A professional Electron-based desktop application for controlling and visualizing data from the CCM 4-axis digitizing arm.
+A professional Electron-based desktop application for controlling and visualizing data from the CMM 4-axis digitizing arm.
 
 ## Features
 
