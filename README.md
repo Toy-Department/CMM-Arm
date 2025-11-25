@@ -44,7 +44,7 @@ Upload the Arduino firmware to your Arduino Mega 2560:
 3. Select your serial port
 4. Click **Upload**
 
-See [Hardware_Firmware/docs/README](Hardware_Firmware/docs/README) for complete hardware setup, wiring diagrams, and configuration.
+See [Hardware_Firmware/docs/README](Hardware_Firmware/docs/README.md) for complete hardware setup, wiring diagrams, and configuration.
 
 ## System Requirements
 
