@@ -1,13 +1,13 @@
 /*
  * ============================================================================
- * 4-AXIS CCM DIGITIZING ARM - MAIN SKETCH
+ * 4-AXIS CMM DIGITIZING ARM - MAIN SKETCH
  * ============================================================================
  * 
  * Project: Open Source 4-Axis Articulated Digitizing Arm
- * Author: [Your Name/Organization]
+ * Author: Ken
  * Version: 2.1.2-Fix (Fixed single-press zero issue)
  * Date: November 2025
- * License: MIT (or your choice)
+ * License: MIT
  * 
  * DESCRIPTION:
  * This sketch reads 4 rotary encoders to track the position of an articulated

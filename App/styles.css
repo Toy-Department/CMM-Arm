@@ -1,6 +1,6 @@
 /*
  * ============================================================================
- * CCM DIGITIZING ARM - STYLES v1.0.0
+ * CMM DIGITIZING ARM - STYLES v1.0.0
  * ============================================================================
  */
 
@@ -216,16 +216,8 @@ body {
     width: 280px;
     min-width: 200px;
     max-width: 400px;
-    /* Hide scrollbar while maintaining scroll functionality */
-    scrollbar-width: none;
-    /* Firefox */
-    -ms-overflow-style: none;
-    /* IE and Edge */
-}
-
-.left-panel::-webkit-scrollbar {
-    display: none;
-    /* Chrome, Safari, Opera */
+    overflow-y: auto;
+    /* Show scrollbar */
 }
 
 /* 🎯 CENTER PANEL FIX: Set to flex column to manage vertical content flow */
@@ -440,24 +432,35 @@ body {
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 7px;
+    width: 12px;
     background: transparent;
     cursor: col-resize;
     z-index: 10;
     transition: background 0.2s;
 }
 
+/* Larger invisible hit area for easier targeting */
+.resize-handle::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -4px;
+    right: -4px;
+    /* Creates a 20px total hit area (12px + 4px on each side) */
+}
+
 .resize-handle:hover,
 .resize-handle.resizing {
-    background: rgba(0, 123, 255, 0.1);
+    background: rgba(0, 123, 255, 0.15);
 }
 
 .resize-handle-left {
-    right: -3.5px;
+    right: -6px;
 }
 
 .resize-handle-right {
-    left: -3.5px;
+    left: -6px;
 }
 
 .resize-handle::after {
@@ -466,17 +469,17 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 2px;
-    height: 40px;
+    width: 3px;
+    height: 60px;
     background: #007bff;
-    border-radius: 1px;
+    border-radius: 2px;
     opacity: 0;
     transition: opacity 0.2s;
 }
 
 .resize-handle:hover::after,
 .resize-handle.resizing::after {
-    opacity: 1;
+    opacity: 0.8;
 }
 
 /* --- POSITION DISPLAY (Crucial Data) --- */
@@ -863,6 +866,14 @@ select:focus {
     font-weight: 600;
     background: white;
     cursor: pointer;
+}
+
+/* --- Log Display Container --- */
+.log-display {
+    flex: 1;
+    overflow-y: auto;
+    font-family: 'Consolas', monospace;
+    font-size: 12px;
 }
 
 /* --- Log Entry Types with Status Icons (Standardized Display) --- */

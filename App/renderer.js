@@ -1,6 +1,6 @@
 /*
  * ============================================================================
- * CCM DIGITIZING ARM - RENDERER PROCESS v1.0.0
+ * CMM DIGITIZING ARM - RENDERER PROCESS v1.0.0
  * ============================================================================
  * 
  * Major V3 Enhancements:

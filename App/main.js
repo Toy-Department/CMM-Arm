@@ -1,6 +1,6 @@
 /*
  * ============================================================================
- * CCM DIGITIZING ARM - MAIN PROCESS
+ * CMM DIGITIZING ARM - MAIN PROCESS
  * ============================================================================
  * 
  * This is the main Electron process that manages the application window
@@ -24,7 +24,7 @@ let mainWindow = null;
 
 // Application version
 const APP_VERSION = '1.0.0';
-const APP_NAME = 'CCM Digitizing Arm';
+const APP_NAME = 'CMM Digitizing Arm';
 
 // ============================================================================
 // CREATE MAIN WINDOW
@@ -214,7 +214,7 @@ function setupMenu() {
           click: () => {
             // Open README in default browser
             const { shell } = require('electron');
-            shell.openExternal('https://github.com/Toy-Department/ccm-digitizing-arm');
+            shell.openExternal('https://github.com/Toy-Department/cmm-digitizing-arm');
           }
         },
         {
