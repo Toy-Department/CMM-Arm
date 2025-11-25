@@ -206,6 +206,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Maintained by:** [Your Name/Team]  
+**Maintained by:** Toy-Department  
 **Repository:** https://github.com/Toy-Department/CMM-Digitizing-Arm  
 **Issues:** https://github.com/Toy-Department/CMM-Digitizing-Arm/issues

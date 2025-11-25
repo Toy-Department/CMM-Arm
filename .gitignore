@@ -15,6 +15,7 @@ App/*.rpm
 Hardware_Firmware/**/*.hex
 Hardware_Firmware/**/*.elf
 Hardware_Firmware/**/*.bin
+Hardware_Firmware/docs/PROJECT_SUMMARY.md
 
 # OS files
 .DS_Store
