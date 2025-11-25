@@ -1,9 +1,9 @@
 /*
  * ============================================================================
- * 4-AXIS CMM DIGITIZING ARM - MAIN SKETCH
+ * 4-AXIS CMM ARM - MAIN SKETCH
  * ============================================================================
  * 
- * Project: Open Source 4-Axis Articulated Digitizing Arm
+ * Project: Open Source 4-Axis Articulated Arm
  * Author: Ken
  * Version: 2.1.2-Fix (Fixed single-press zero issue)
  * Date: November 2025

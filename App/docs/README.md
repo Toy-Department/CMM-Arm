@@ -1,4 +1,4 @@
-# CMM Digitizing Arm v1.0.0
+# CMM Arm v1.0.0
 
 > **Document Control:** v1.0.0 | Last Updated: 2025-01-20 | Compatible with Firmware v1.0.0
 
@@ -6,9 +6,9 @@
 [![Electron](https://img.shields.io/badge/Electron-33.0.0-blue.svg)](https://www.electronjs.org/)
 [![Node](https://img.shields.io/badge/Node-20.18.0-green.svg)](https://nodejs.org/)
 
-A professional desktop application for interfacing with 4-axis articulated digitizing arms. Designed for reverse engineering, quality control, and 3D measurement tasks with real-time coordinate tracking, advanced geometry analysis, and interactive 3D visualization.
+A professional desktop application for interfacing with 4-axis articulated arms. Designed for reverse engineering, quality control, and 3D measurement tasks with real-time coordinate tracking, advanced geometry analysis, and interactive 3D visualization.
 
-![CMM Digitizing Arm Interface](docs/images/app-screenshot.png)
+![CMM Arm Interface](docs/images/app-screenshot.png)
 
 ---
 
@@ -41,7 +41,7 @@ A professional desktop application for interfacing with 4-axis articulated digit
 - **Screenshot Export**: Capture views for documentation and reports
 
 ### 🔌 Connectivity
-- **Serial Connection**: Auto-detects Arduino-based digitizing arms via USB
+- **Serial Connection**: Auto-detects Arduino-based arms via USB
 - **Simulator Mode**: Built-in physics simulator for testing without hardware
   - Simulates Rectangle, Cylinder, Cone, and complex calibration patterns
 
@@ -67,8 +67,8 @@ A professional desktop application for interfacing with 4-axis articulated digit
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/Toy-Department/cmm-digitizing-arm.git
-cd cmm-digitizing-arm
+git clone https://github.com/Toy-Department/cmm-arm.git
+cd cmm-arm
 ```
 
 ### 2. Install Dependencies
@@ -98,7 +98,7 @@ npm run build-linux
 ## 📖 Usage Overview
 
 ### Connecting to Hardware
-1. Connect your Arduino-based digitizing arm via USB
+1. Connect your Arduino-based arm via USB
 2. Click **Refresh** to scan for available ports
 3. Select your device from the dropdown
 4. Click **Connect**
@@ -145,7 +145,7 @@ npm run build-linux
 ## 📁 Project Structure
 
 ```
-cmm-digitizing-arm/
+cmm-arm/
 ├── main.js                 # Electron main process (window management)
 ├── renderer.js             # Core application logic (UI, serial, geometry)
 ├── index.html              # Main UI layout
@@ -195,8 +195,8 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/Toy-Department/cmm-digitizing-arm/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/Toy-Department/cmm-digitizing-arm/discussions)
+- **Issues**: [GitHub Issues](https://github.com/Toy-Department/cmm-arm/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/Toy-Department/cmm-arm/discussions)
 - **Email**: toydepartment2025@gmail.com
 
 ---

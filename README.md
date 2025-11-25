@@ -1,6 +1,6 @@
 # CMM Measurement Arm
 
-A professional desktop application for 4-axis digitizing arms with real-time 3D visualization, advanced geometry analysis, and Arduino-based hardware control.
+A professional desktop application for 4-axis arm with real-time 3D visualization, advanced geometry analysis, and Arduino-based hardware control.
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
@@ -10,7 +10,7 @@ A professional desktop application for 4-axis digitizing arms with real-time 3D 
 The CMM Measurement Arm system consists of two main components:
 
 1. **[Desktop Application](App/)** - Electron-based software for data capture and analysis
-2. **[Hardware & Firmware](Hardware_Firmware/)** - Arduino firmware for the digitizing arm
+2. **[Hardware & Firmware](Hardware_Firmware/)** - Arduino firmware for the arm
 
 ## Key Features
 
@@ -39,12 +39,12 @@ See [App/README.md](App/README.md) for detailed installation and usage instructi
 
 Upload the Arduino firmware to your Arduino Mega 2560:
 
-1. Open `Hardware_Firmware/Arduino/CMM_Digitizing_Arm_Arduino.ino` in Arduino IDE
+1. Open `Hardware_Firmware/Arduino/CMM_Arm_Arduino.ino` in Arduino IDE
 2. Select **Board: Arduino Mega 2560**
 3. Select your serial port
 4. Click **Upload**
 
-See [Hardware_Firmware/docs/README](Hardware_Firmware/docs/README.md) for complete hardware setup, wiring diagrams, and configuration.
+See [Hardware_Firmware/docs/README.md](Hardware_Firmware/docs/README.md) for complete hardware setup, wiring diagrams, and configuration.
 
 ## System Requirements
 
@@ -69,7 +69,7 @@ See [Hardware_Firmware/docs/README](Hardware_Firmware/docs/README.md) for comple
 ## Project Structure
 
 ```
-CMM-Measurement-Arm/
+CMM-Arm/
 ├── App/                      # Desktop application
 │   ├── src/                  # Core modules
 │   ├── assets/               # Icons and images
@@ -99,8 +99,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-Built with ❤️ for the maker and reverse engineering community.
+Built with ❤️ for the maker community.
 
 ---
 
-**Version 1.0.0** | [Report Issues](https://github.com/Toy-Department/CMM-Measurement-Arm/issues)
+**Version 1.0.0** | [Report Issues](https://github.com/Toy-Department/CMM-Arm/issues)

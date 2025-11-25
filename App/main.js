@@ -1,6 +1,6 @@
 /*
  * ============================================================================
- * CMM DIGITIZING ARM - MAIN PROCESS
+ * CMM ARM - MAIN PROCESS
  * ============================================================================
  * 
  * This is the main Electron process that manages the application window
@@ -24,7 +24,7 @@ let mainWindow = null;
 
 // Application version
 const APP_VERSION = '1.0.0';
-const APP_NAME = 'CMM Digitizing Arm';
+const APP_NAME = 'CMM Arm';
 
 // ============================================================================
 // CREATE MAIN WINDOW
@@ -214,7 +214,7 @@ function setupMenu() {
           click: () => {
             // Open README in default browser
             const { shell } = require('electron');
-            shell.openExternal('https://github.com/Toy-Department/cmm-digitizing-arm');
+            shell.openExternal('https://github.com/Toy-Department/cmm-arm');
           }
         },
         {
@@ -231,7 +231,7 @@ function setupMenu() {
               type: 'info',
               title: 'About',
               message: `${APP_NAME}`,
-              detail: `Version: ${APP_VERSION}\n\nOpen-source digitizing arm software for reverse engineering and 3D modeling.\n\n© 2025`
+              detail: `Version: ${APP_VERSION}\n\nOpen-source arm software for reverse engineering and 3D modeling.\n\n© 2025`
             });
           }
         }
@@ -251,7 +251,7 @@ function setupMenu() {
 ipcMain.handle('save-csv-dialog', async (event) => {
   const result = await dialog.showSaveDialog(mainWindow, {
     title: 'Export CSV File',
-    defaultPath: `digitizing_arm_${Date.now()}.csv`,
+    defaultPath: `arm_${Date.now()}.csv`,
     filters: [
       { name: 'CSV Files', extensions: ['csv'] },
       { name: 'All Files', extensions: ['*'] }

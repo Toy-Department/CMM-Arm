@@ -1,6 +1,6 @@
 # Documentation Index
 
-**CMM Digitizing Arm - Firmware v1.0.2**
+**CMM Arm - Firmware v1.0.2**
 
 Complete navigation guide for all project documentation.
 
@@ -133,9 +133,9 @@ Complete list of documentation files:
 ## 🌐 External Resources
 
 ### Official Resources
-- **GitHub Repository:** https://github.com/Toy-Department/CMM-Digitizing-Arm
-- **Issues:** https://github.com/Toy-Department/CMM-Digitizing-Arm/issues
-- **Discussions:** https://github.com/Toy-Department/CMM-Digitizing-Arm/discussions
+- **GitHub Repository:** https://github.com/Toy-Department/CMM-Arm
+- **Issues:** https://github.com/Toy-Department/CMM-Arm/issues
+- **Discussions:** https://github.com/Toy-Department/CMM-Arm/discussions
 
 ### Related Tools
 - **Arduino IDE:** https://www.arduino.cc/en/software
@@ -219,7 +219,7 @@ All documentation in this project follows these standards:
 - Community contributions welcome
 
 **How to Report Documentation Issues:**
-1. Check if issue already reported in [GitHub Issues](https://github.com/Toy-Department/CMM-Digitizing-Arm/issues)
+1. Check if issue already reported in [GitHub Issues](https://github.com/Toy-Department/CMM-Arm/issues)
 2. Label as "documentation"
 3. Specify document name and section
 4. Suggest correction if possible
@@ -251,11 +251,11 @@ All documentation in this project follows these standards:
 ## 📞 Getting Help
 
 **Documentation unclear?**
-- Post in [GitHub Discussions](https://github.com/Toy-Department/CMM-Digitizing-Arm/discussions)
+- Post in [GitHub Discussions](https://github.com/Toy-Department/CMM-Arm/discussions)
 - Label as "documentation" + "question"
 
 **Found an error?**
-- File issue on [GitHub Issues](https://github.com/Toy-Department/CMM-Digitizing-Arm/issues)
+- File issue on [GitHub Issues](https://github.com/Toy-Department/CMM-Arm/issues)
 - Label as "documentation" + "bug"
 
 **Want to improve docs?**

@@ -2,7 +2,7 @@
 
 > **Document Control:** v1.0.0 | Last Updated: 2025-01-20 | Compatible with Firmware v1.0.0
 
-Get up and running with the CMM Digitizing Arm in **5 minutes**.
+Get up and running with the CMM Arm in **5 minutes**.
 
 ---
 
@@ -19,13 +19,13 @@ Before you begin, ensure you have:
 
 ### Option A: Clone from GitHub
 ```bash
-git clone https://github.com/Toy-Department/cmm-digitizing-arm.git
-cd cmm-digitizing-arm
+git clone https://github.com/Toy-Department/cmm-arm.git
+cd cmm-arm
 npm install
 ```
 
 ### Option B: Download ZIP
-1. Download the [latest release](https://github.com/Toy-Department/cmm-digitizing-arm/releases)
+1. Download the [latest release](https://github.com/Toy-Department/cmm-arm/releases)
 2. Extract the ZIP file
 3. Open a terminal in the extracted folder
 4. Run `npm install`
@@ -51,7 +51,7 @@ The application window will open automatically.
 4. ✅ Status should show **"Connected"** in green
 
 ### Using Real Hardware
-1. Connect your Arduino digitizing arm via USB
+1. Connect your Arduino arm via USB
 2. Click **🔄 Refresh** to scan for ports
 3. Select your device (e.g., `COM3` on Windows, `/dev/ttyUSB0` on Linux)
 4. Click **Connect**
@@ -148,10 +148,10 @@ The application window will open automatically.
 
 ## 📚 Next Steps
 
-- **[Hardware Setup Guide](HARDWARE.md)** - Build your own Arduino-based digitizing arm
+- **[Hardware Setup Guide](HARDWARE.md)** - Build your own Arduino-based arm
 - **[Full README](README.md)** - Detailed feature documentation
 - **[Contributing Guide](CONTRIBUTING.md)** - Help improve the project
 
 ---
 
-**Need Help?** Open an issue on [GitHub](https://github.com/Toy-Department/cmm-digitizing-arm/issues)
+**Need Help?** Open an issue on [GitHub](https://github.com/Toy-Department/cmm-arm/issues)

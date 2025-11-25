@@ -41,7 +41,7 @@ void Serial_Init() {
 // ============================================================================
 void Serial_SendStartupMessage() {
   Serial.println(F("====================================="));
-  Serial.println(F("4-Axis CMM Digitizing Arm"));
+  Serial.println(F("4-Axis CMM Arm"));
   Serial.print(F("Firmware Version: "));
   Serial.println(F(FIRMWARE_VERSION));
   Serial.print(F("Date: "));

@@ -1,7 +1,7 @@
 {
-  "name": "cmm-digitizing-arm",
+  "name": "cmm-arm",
   "version": "1.0.0",
-  "description": "Desktop application for 4-axis CMM digitizing arm with advanced geometry analysis",
+  "description": "Desktop application for 4-axis CMM arm with advanced geometry analysis",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -12,7 +12,7 @@
     "rebuild": "npm rebuild --runtime=electron --target=33.0.0 --disturl=https://electronjs.org/headers --build-from-source"
   },
   "keywords": [
-    "digitizing",
+    "measurement",
     "arm",
     "CMM",
     "Arduino",
@@ -22,7 +22,7 @@
     "geometry",
     "measurement"
   ],
-  "author": "Your Name",
+  "author": "Ken",
   "license": "MIT",
   "dependencies": {
     "serialport": "^12.0.0",
@@ -33,8 +33,8 @@
     "electron-builder": "^25.0.0"
   },
   "build": {
-    "appId": "com.yourcompany.cmm-digitizing-arm",
-    "productName": "CMM Digitizing Arm",
+    "appId": "com.toy-department.cmm-arm",
+    "productName": "CMM Arm",
     "directories": {
       "output": "dist"
     },

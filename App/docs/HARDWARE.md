@@ -2,7 +2,7 @@
 
 > **Document Control:** v1.0.0 | Last Updated: 2025-01-20 | Compatible with Firmware v1.0.0
 
-This guide covers the Arduino firmware and hardware setup for building your own 4-axis digitizing arm.
+This guide covers the Arduino firmware and hardware setup for building your own 4-axis arm.
 
 ---
 
@@ -188,7 +188,7 @@ Arduino → PC: ACK,Recording Stopped\r\n
 4. Type `STOP` to halt streaming
 
 ### 3. Application Test
-1. Launch the CMM Digitizing Arm application
+1. Launch the CMM Arm application
 2. Connect to your Arduino
 3. Enable Live Recording and start recording
 4. Move the arm and watch the 3D viewer update
@@ -217,4 +217,4 @@ Arduino → PC: ACK,Recording Stopped\r\n
 
 ---
 
-**Need Help?** Open an issue on [GitHub](https://github.com/Toy-Department/cmm-digitizing-arm/issues) with the `hardware` label.
+**Need Help?** Open an issue on [GitHub](https://github.com/Toy-Department/cmm-arm/issues) with the `hardware` label.

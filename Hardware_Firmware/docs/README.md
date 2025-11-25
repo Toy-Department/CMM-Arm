@@ -1,12 +1,12 @@
-# CMM Digitizing Arm - Arduino Firmware
+# CMM Arm - Arduino Firmware
 
 ![Version](https://img.shields.io/badge/version-1.0.2-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Arduino](https://img.shields.io/badge/platform-Arduino%20Mega%202560-blue.svg)
 
-**Professional-grade firmware for 4-axis coordinate measuring machine (CMM) digitizing arms.**
+**Professional-grade firmware for 4-axis coordinate measuring machine (CMM) arms.**
 
-This open-source firmware transforms an Arduino Mega 2560 into a precision measurement controller for articulated digitizing arms. Perfect for reverse engineering, quality inspection, and 3D coordinate capture applications.
+This open-source firmware transforms an Arduino Mega 2560 into a precision measurement controller for articulated arms. Perfect for reverse engineering, quality inspection, and 3D coordinate capture applications.
 
 ---
 
@@ -65,16 +65,16 @@ The Mega 2560 provides:
 ### 1. Download Firmware
 
 ```bash
-git clone https://github.com/Toy-Department/CMM-Digitizing-Arm.git
-cd CMM-Digitizing-Arm/Arduino
+git clone https://github.com/Toy-Department/CMM-Arm.git
+cd CMM-Arm/Arduino
 ```
 
-Or download the [latest release](https://github.com/Toy-Department/CMM-Digitizing-Arm/releases) ZIP file.
+Or download the [latest release](https://github.com/Toy-Department/CMM-Arm/releases) ZIP file.
 
 ### 2. Open in Arduino IDE
 
 1. Launch Arduino IDE (version 1.8.0 or later recommended)
-2. Open `CMM_Digitizing_Arm_Arduino.ino`
+2. Open `CMM_Arm_Arduino.ino`
 3. The IDE will automatically open all related files
 
 ### 3. Configure (Optional)
@@ -100,7 +100,7 @@ Open **Tools → Serial Monitor**, set to **115200 baud**, and you should see:
 
 ```
 =====================================
-4-Axis CMM Digitizing Arm
+4-Axis CMM Arm
 Firmware Version: 1.0.2
 Date: 2025-11-20
 =====================================
@@ -129,7 +129,7 @@ Download and install from [arduino.cc](https://www.arduino.cc/en/software). No a
 
 **Option A: Git Clone**
 ```bash
-git clone https://github.com/Toy-Department/CMM-Digitizing-Arm.git
+git clone https://github.com/Toy-Department/CMM-Arm.git
 ```
 
 **Option B: Download ZIP**
@@ -601,7 +601,7 @@ Solutions:
 If you're still experiencing issues:
 
 1. **Enable debug modes** in `config.h` and check Serial Monitor output
-2. **Check GitHub Issues**: [github.com/Toy-Department/CMM-Digitizing-Arm/issues](https://github.com/Toy-Department/CMM-Digitizing-Arm/issues)
+2. **Check GitHub Issues**: [github.com/Toy-Department/CMM-Arm/issues](https://github.com/Toy-Department/CMM-Arm/issues)
 3. **Post detailed issue** including:
    - Firmware version (`VERSION` command output)
    - Hardware specifications (encoder model, Arduino board)
@@ -619,9 +619,7 @@ Complete documentation set:
 |----------|-------------|
 | **[README.md](README.md)** | This file - overview and quick start |
 | **[HARDWARE_SETUP.md](HARDWARE_SETUP.md)** | Detailed wiring, BOM, assembly instructions |
-| **[FIRMWARE_GUIDE.md](FIRMWARE_GUIDE.md)** | Complete firmware reference and configuration |
 | **[QUICK_START.md](QUICK_START.md)** | 15-minute setup guide for first-time users |
-| **[TROUBLESHOOTING.md](TROUBLESHOOTING.md)** | Expanded troubleshooting and diagnostics |
 | **[CHANGELOG.md](CHANGELOG.md)** | Version history and release notes |
 
 ---
@@ -657,7 +655,7 @@ We welcome contributions! This is an open-source project designed to help the ma
 
 ## 📄 License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License**.
 
 ### MIT License Summary
 
@@ -683,8 +681,8 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 📧 Contact
 
-- **Issues**: [GitHub Issues](https://github.com/Toy-Department/CMM-Digitizing-Arm/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/Toy-Department/CMM-Digitizing-Arm/discussions)
+- **Issues**: [GitHub Issues](https://github.com/Toy-Department/CMM-Arm/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/Toy-Department/CMM-Arm/discussions)
 - **Email**: toydepartment2025@gmail.com
 
 ---

@@ -3,7 +3,7 @@
  * CONFIGURATION HEADER FILE
  * ============================================================================
  * 
- * This file contains ALL user-configurable settings for the digitizing arm.
+ * This file contains ALL user-configurable settings for the arm.
  * Modify values here to customize for your specific hardware setup.
  * 
  * ============================================================================
