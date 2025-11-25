@@ -87,7 +87,7 @@ CMM-Measurement-Arm/
 ## Documentation
 
 - **[App Documentation](App/README.md)** - Desktop application setup and usage
-- **[Firmware Documentation](Hardware_Firmware/docs/README)** - Complete firmware guide with wiring, commands, and troubleshooting
+- **[Firmware Documentation](Hardware_Firmware/docs/README.md)** - Complete firmware guide with wiring, commands, and troubleshooting
 
 ## Contributing
 
